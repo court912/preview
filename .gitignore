@@ -24,3 +24,7 @@ package-lock.json
 *.njsproj
 *.sln
 *.sw?
+
+# Tempo files
+**/tempobook/dynamic/
+**/tempobook/storyboards/
