@@ -1,6 +1,10 @@
-import setupApp from './app'
+import setupApp from "./app";
 
-import '@klinecharts/pro/dist/klinecharts-pro.css'
-import './index.css'
+import "@klinecharts/pro/dist/klinecharts-pro.css";
+import "./index.css";
 
-setupApp(document.querySelector<HTMLDivElement>('#app')!)
+// Import and initialize Tempo Devtools
+import { TempoDevtools } from "tempo-devtools";
+TempoDevtools.init();
+
+setupApp(document.querySelector<HTMLDivElement>("#app")!);
